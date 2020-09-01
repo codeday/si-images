@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "@codeday/eslint-config": "^2.1.2",
+    "eslint": "^7.8.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0"
+  }
+}

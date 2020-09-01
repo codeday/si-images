@@ -36,7 +36,8 @@ app.get('/:id', (req, res) => {
     return res.send('err');
   }
 
-  return res.redirect(employee.picture);
+  res.set('Cache-Control', 'public, max-age=3600');
+  return res.redirect(301, employee.picture);
 });
 
 app.listen(5000);

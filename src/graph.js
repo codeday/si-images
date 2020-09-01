@@ -5,7 +5,7 @@ const query = `
     account {
       roleUsers(roleId: "rol_llN0357VXrEoIxoj") {
         username
-        picture(transform:{width:128, height: 128})
+        picture(transform:{width:128, height: 128, fit: CROP})
       }
     }
   }
